@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-size: 200% 200%;
+    background-image: linear-gradient(
+    to left,
+    #24525A 0%,
+    #2f6e79 20%,
+    #1f7686 40%,
+    #175f6c 60%,
+    #225159 80%
+    );
+
+    animation: cambiodecolor 5s linear infinite alternate;
+}
+
+
+@keyframes cambiodecolor {
+   from {
+    background-position: 0 0;
+   }
+
+   to {
+    background-position: 100% 100%;
+   }
+}
+.formulario-registro {
+    width: 400px;
+    background:#24303C;
+    padding:30px;
+    margin:auto;
+    margin-top:100px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color:white;
+    box-shadow: 8px 14px 35px #000;
+    position: relative;
+}
+
+.formulario-registro h4 {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.formulario-registro p {
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.formulario-registro a {
+    color:white;
+    text-decoration: none;
+}
+
+.formulario-registro a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.register {
+    width:100%;
+    background: #24303C;
+    padding:10px;
+    border-radius:4px;
+    margin-bottom: 15px;
+    border: 1px solid #f922e4;
+    color:white;
+    font-size:1em;
+    transition: ease-in 0.3s;
+}
+
+.register:hover {
+    border: 1px solid #0766ff
+}
+
+.boton {
+    width:100%;
+    background: rgb(40, 40, 255);
+    border:none;
+    padding:12px;
+    color:white;
+    font-size: 1em;
+    margin:15px 0px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+}
+
+.boton:hover, .reset:hover {
+    opacity: 80%;
+}
+
+.reset {
+    width:100%;
+    background: #c96d6d;
+    border:none;
+    padding:12px;
+    color:white;
+    font-size: 1em;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+}
+
+.checkterms {
+    margin-left: 10px;
+    width: 20px;
+    height: 15px;
+    
+}
+
+.redirectlogin {
+    margin-top: 5%;
+    text-decoration: none;
+    
+}
