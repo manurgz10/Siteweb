@@ -10,15 +10,51 @@
 <body>
     <header>
         <img class="logo" src="imagenes/logopag.png" alt="logo">
-    <!-- Barra de navegación -->
-            <nav>
-                <ul class ="lista">
-                    <li><a href="index.html">Home</a> </li>
-                    <li><a href="gallery.html">Galería</a> </li>
-                    <li><a href="indmex.html">Fits</a> </li>
-                </ul>
-            </nav>
-            <a class="Login" href="register.html"><button>Register</button></a>
+        <!-- Barra de navegación -->
+        <nav>
+            <ul class="lista">
+                <li><a href="index.html">Home</a></li>
+                <li class="desplegable">
+                    <a href="#" class="galeria">Galería</a>
+                    <div class="desplegable-contenido">
+                        <a href="gallery.html">Sneakers</a>
+                        <a href="brands.html">Brands</a>
+                    </div>
+                </li>
+                <li><a href="tabla.html">Tabla</a></li>
+            </ul>
+        </nav>
+        <a class="Login" href="register.html"><button>Register</button></a>
+
     </header>
+
+    <div id="lateral">
+        <nav id="menu">
+    
+            <h3 class="link-titulo">Tiendas Palma de Mallorca</h3>
+                <ul class="box">
+                    <li><a href="#">Adidas</a></li>							
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">Jordan</a></li>
+                </ul>				
+    
+            <h3 class="link-titulo">Tiendas Barcelona</h3>
+                <ul class="box">
+                    <li><a href="#">New Balance</a></li>
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">Adidas</a></li>
+                    <li><a href="#">Puma</a></li>
+                    <li><a href="#">Jordan</a></li>
+                </ul>
+    
+            <h3 class="link-titulo">Tiendas Valencia</h3>
+                <ul class="box">				
+                    <li><a href="#">Nike</a></li>
+                    <li><a href="#">Adidas</a></li>
+                </ul>
+    
+        </nav> 
+        </div> 
+    
 </body>
 </html>

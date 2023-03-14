@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
 body {
     background-size: 200% 200%;
@@ -23,11 +22,21 @@ body {
    from {
     background-position: 0 0;
    }
-
    to {
     background-position: 100% 100%;
    }
 }
+
+@keyframes animacionform {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .formulario-registro {
     width: 400px;
     background:#24303C;
@@ -38,7 +47,7 @@ body {
     font-family: sans-serif;
     color:white;
     box-shadow: 8px 14px 35px #000;
-    position: relative;
+    animation: animacionform 1s ease-in;
 }
 
 .formulario-registro h4 {
